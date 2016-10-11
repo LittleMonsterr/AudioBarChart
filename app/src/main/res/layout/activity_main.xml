@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.weiyu.audiobarchart.MainActivity">
+
+    <com.example.weiyu.audiobarchart.AudioBarChart
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        custom:count="20"
+        custom:downColor="@color/down_color"
+        custom:topColor="@color/top_color"
+        />
+</RelativeLayout>

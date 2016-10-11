@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--音频条形图的自定义属性-->
+    <declare-styleable name="AudioBarChart">
+        <attr name="count" format="integer"/>
+        <attr name="speed" format="integer"/>
+        <attr name="offset" format="integer"/>
+        <attr name="topColor" format="color"/>
+        <attr name="downColor" format="color"/>
+    </declare-styleable>
+</resources>
